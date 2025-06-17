@@ -1,16 +1,37 @@
 body{
+    background-image: url('F266A7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: sans-serif;
     text-align: center;
     margin-top: 50px;
+    background-color:#9DAB83;
+    padding-top: 300px;
+    height: 100%;
+    width: 100%;
 }
 
 #display{
-    font-style: 48px;
-    margin-bottom: 20px;
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-family: "Zilla Slab", serif;
+    color: #F5CEC2;
 }
 
 button{
    margin: 5px;
    padding: 10px 20px;
    font-style: 16px;
+   border-radius: 20px;
+   background-color: #F5CEC2;
+   color:#F266A7;
+   border-color: #F5CEC2;
+   font-family: "Savate", sans-serif;
+   font-size: 20px;
+}
+
+button:hover{
+    background-color: #F1F2D5;
+    color: #FF81D0;
+
 }

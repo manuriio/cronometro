@@ -37,17 +37,16 @@ function pauseCronometro(){
 
 //função de reset no cronometro
 function resetCronometro(){
-    pausarCronometro();
+    pauseCronometro();
     segundos = 0;
-    atualizaDisplay();
-
+   atualizaDisplay()
 }
 
 //função de formartar o tempo
 function formatarTempo(segundosTotais){
  const minutos = Math.floor(segundosTotais/60);
  const segundos = segundosTotais % 60;
- return`${String(minutos).padStart(2,'0')}:${String(segundos).padStart(2,'0')}:`
+ return`${String(minutos).padStart(2,'0')}:${String(segundos).padStart(2,'0')}`
 }
 
     //função que envia o tempo para apágina
